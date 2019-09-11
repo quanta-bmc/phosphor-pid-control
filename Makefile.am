@@ -73,7 +73,6 @@ libswampd_la_CXXFLAGS = \
 	$(PHOSPHOR_DBUS_INTERFACES_CFLAGS) \
 	$(PHOSPHOR_LOGGING_CFLAGS) \
 	$(CODE_COVERAGE_CXXFLAGS) \
-	-flto
 
 libswampd_la_SOURCES = \
 	notimpl/readonly.cpp \
@@ -126,6 +125,5 @@ libmanualcmds_la_CXXFLAGS = \
 	$(PHOSPHOR_LOGGING_CFLAGS) \
 	$(LIBIPMID_CFLAGS) \
 	$(CODE_COVERAGE_CXXFLAGS) \
-	-flto
 
 SUBDIRS = . test
